@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Urban</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="./script/app.js" charset="utf-8" async></script>
+    <script src="./script/table.js" charset="utf-8" defer></script>
+</head>
+
+<body class="container">
+    <nav>
+        <ul class="tab tab-block">
+            <li class="tab-item">
+                <a href="" class="active"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+            </li>
+            <li class="tab-item">
+                <a href="https://github.com/ziitrus/urbanExtension" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i>
+</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="game">
+        <div class="ctbl columns"></div>
+        <div class="result">
+            <table class="table">
+                <tbody>
+                    <tr class="resultCnt"></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="keyboard columns">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td><button class="btn">q</button></td>
+                        <td><button class="btn">w</button></td>
+                        <td><button class="btn">e</button></td>
+                        <td><button class="btn">r</button></td>
+                        <td><button class="btn">t</button></td>
+                        <td><button class="btn">y</button></td>
+                        <td><button class="btn">u</button></td>
+                        <td><button class="btn">i</button></td>
+                        <td><button class="btn">o</button></td>
+                        <td><button class="btn">p</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn">a</button></td>
+                        <td><button class="btn">s</button></td>
+                        <td><button class="btn">d</button></td>
+                        <td><button class="btn">f</button></td>
+                        <td><button class="btn">g</button></td>
+                        <td><button class="btn">h</button></td>
+                        <td><button class="btn">j</button></td>
+                        <td><button class="btn">k</button></td>
+                        <td><button class="btn">l</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="btn">z</button></td>
+                        <td><button class="btn">x</button></td>
+                        <td><button class="btn">c</button></td>
+                        <td><button class="btn">v</button></td>
+                        <td><button class="btn">b</button></td>
+                        <td><button class="btn">n</button></td>
+                        <td><button class="btn">m</button></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <p>Score: <span class="score"></span></p>
+    <div class="pop">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name":"Urban",
+  "description":"",
+  "version":"1.4",
+  "browser_action": {
+    "default_icon":"app/assets/urban_thumbs.png",
+    "default_popup":"app/index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://ajax.googleapis.com/"
+  ]
+}
